@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d9d487;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+}
+
+header {
+  background-color: #d9d487;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header .black {
+  font-weight: bold;
+  color: black;
+}
+
+header .green {
+  font-weight: bold;
+  color: #4c5800;
+}
+
+header a {
+  text-decoration: none;
+  color: #1d51d7;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.box {
+  background-color: white;
+  border: 2px solid black;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.red {
+  color: red;
+  font-size: 18px;
+}
+
+.form {
+  margin-top: 10px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+legend {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 95%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  border: none;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+
+footer {
+    background-color: #e0e08a;
+    padding: 10px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
